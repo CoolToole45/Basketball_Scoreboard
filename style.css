@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'CursedTimerUlil';
+}
+
+@font-face {
+    font-family: 'CursedTimerUlil';
+    src: url(Fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.centered-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    justify-content: space-around;
+    height: 100vh;
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+.main-container h1 {
+    margin: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 2px 3px black;
+}
+
+.player-container {
+    flex-direction: column;
+}
+
+.score-display {
+    width: 15rem;
+    height: 15rem;
+    color: #F94F6D;
+    background-color: black;
+    border: 5px solid grey;
+}
+
+.score-display span {
+    font-size: 5rem;
+}
+
+.controls {
+    margin-top: 1rem;
+}
+
+.score-btn {
+    font-size: 2rem;
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.score-btn:hover {
+    background-color: rgb(0, 78, 78);
+    border-color: rgb(182, 182, 182);
+}
+
+@media (max-width: 750px) {
+    .main-container {
+        flex-direction: column;
+    }
+}

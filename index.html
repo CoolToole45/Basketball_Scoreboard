@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="basketball-svgrepo-com.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="main-container centered-flex">
+        <div class="player-container centered-flex">
+            <h1>HOME</h1>
+            <div class="score-display centered-flex">
+                <span id="home-score">0</span>
+            </div>
+            <div class="controls" id="home-controls">
+                <button class="plus-1 score-btn" value="1">+1</button>
+                <button class="plus-2 score-btn" value="2">+2</button>
+                <button class="plus-3 score-btn" value="3">+3</button>
+            </div>
+        </div>
+        <div class="player-container centered-flex">
+            <h1>GUEST</h1>
+            <div class="score-display centered-flex">
+                <span id="guest-score">0</span>
+            </div>
+            <div class="controls" id="guest-controls">
+                <button class="plus-1 score-btn" value="1">+1</button>
+                <button class="plus-2 score-btn" value="2">+2</button>
+                <button class="plus-3 score-btn" value="3">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
